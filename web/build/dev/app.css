@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #F4F4F4;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+button:focus {
+  outline: 0;
+}
+
+img:focus {
+  outline: 0;
+}
+
+.blue {
+  color: #3B8EFF;
+}
+
+.landing__img {
+  height: 100vh;
+  width: 100%;
+}
+.landing__view {
+  display: flex;
+}
+.landing__titles {
+  position: absolute;
+}
+.landing__title {
+  padding: 0 20px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Bodoni 36";
+  font-weight: 500;
+  font-size: 8vw;
+}
+.landing__subtitle {
+  padding: 0 25px;
+  margin: 0;
+  font-weight: 500;
+}
+.landing__arrow {
+  cursor: pointer;
+  position: absolute;
+  bottom: 32px;
+  width: 100%;
+  z-index: 105;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+.landing__arrow__png {
+  width: 100px;
+  transition: 0.3s ease;
+}
+.landing__arrow__png:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.home {
+  padding: 15px 50px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid black;
+}
+.header ul img {
+  width: 100px;
+}
+.header ul .header__title {
+  text-transform: uppercase;
+  font-family: "Bodoni 36";
+  font-weight: 500;
+  font-size: 50px;
+  margin-left: 100px;
+}
+.header ul .header__address {
+  font-family: "Bodoni 11";
+  font-size: 13px;
+  text-align: right;
+}
+
+.menu {
+  border-bottom: 4px solid black;
+  width: 100%;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul li {
+  font-family: "Bodoni 36";
+  font-size: 30px;
+  transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+}
+.menu ul li:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #3B8EFF;
+}
+.menu__txt {
+  font-size: 35px;
+  line-height: 41px;
+}
+
+/*# sourceMappingURL=/app.css.map */
