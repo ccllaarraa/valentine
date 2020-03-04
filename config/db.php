@@ -11,7 +11,11 @@
 return [
     'dsn' => getenv('DB_DSN'),
     'user' => getenv('DB_USER'),
+    'driver' => getenv('DB_DRIVER'),
+    'server' => getenv('DB_HOST'),
     'password' => getenv('DB_PASSWORD'),
+    'database' => getenv('DB_NAME'),
     'schema' => getenv('DB_SCHEMA'),
     'tablePrefix' => getenv('DB_TABLE_PREFIX'),
+    'port' => getenv('DB_PORT')
 ];

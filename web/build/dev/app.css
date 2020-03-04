@@ -115,7 +115,6 @@ img:focus {
 }
 
 .menu {
-  border-bottom: 4px solid black;
   width: 100%;
 }
 .menu ul {
@@ -138,9 +137,27 @@ img:focus {
   cursor: pointer;
   background-color: #3B8EFF;
 }
-.menu__txt {
+.menu__txt__1 {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
   font-size: 35px;
-  line-height: 41px;
+  line-height: 42px;
+  padding: 20px 0;
+}
+.menu__txt__2 {
+  border-bottom: 4px solid black;
+  font-size: 35px;
+  line-height: 42px;
+  padding: 20px 0;
+}
+
+.exper__title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0;
+  font-family: "Bodoni 36";
+  font-size: 96px;
 }
 
 /*# sourceMappingURL=/app.css.map */
