@@ -1,19 +1,19 @@
 
 {% block body %}
 {% include '/layouts/_base.twig' %}
-
+   <img  class='arrow-up'  src="../assets/arrow-up.svg">
   {% include '/sections/_landing.twig' %}
 
 <section class='home'>
+ 
   {% include '/sections/_header.twig' %}
-  {% include '/sections/_menu.twig' %}
-  {% include '/sections/_expert.twig' %}
-  {% include '/sections/_actu.twig' %}
-  {% include '/sections/_contact.twig' %}
-
-
-
-
+    {% include '/sections/_menu.twig' %}
+  
+    {% include '/sections/_expert.twig' %}
+    {% include '/sections/_actu.twig' %}
+    {% include '/sections/_contact.twig' %}
+   
+  {% include '/sections/_footer.twig' %}
 </section>
 
 

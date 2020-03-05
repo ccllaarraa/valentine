@@ -41,6 +41,26 @@ img:focus {
   color: #3B8EFF;
 }
 
+.arrow-up {
+  position: absolute;
+  width: 10em;
+  right: 0;
+  padding-right: 15px;
+  display: none;
+}
+
+.reveal {
+  display: block;
+  position: fixed;
+  cursor: pointer;
+  z-index: 100;
+  bottom: 20px;
+  transition: 0.5s ease;
+}
+.reveal:hover {
+  transform: scale(1.1, 1.1);
+}
+
 .landing__img {
   height: 100vh;
   width: 100%;
@@ -185,6 +205,9 @@ img:focus {
   color: #3B8EFF;
   cursor: pointer;
 }
+.exper__droits__list--right--arrow1 span:hover, .exper__droits__list--right--arrow2 span:hover, .exper__droits__list--right--arrow3 span:hover {
+  text-decoration: underline;
+}
 .exper__droits__list--right--arrow3 {
   margin-bottom: 25px;
 }
@@ -201,6 +224,9 @@ img:focus {
   font-weight: 600;
   color: #3B8EFF;
   cursor: pointer;
+}
+.exper__droits--reduire1 span:hover, .exper__droits--reduire2 span:hover, .exper__droits--reduire3 span:hover {
+  text-decoration: underline;
 }
 .exper__droits--reduire3 {
   margin-bottom: 25px;
@@ -249,6 +275,68 @@ img:focus {
 .actu__ctn__article--right__date {
   font-size: 20px;
   padding: 10px;
+}
+.actu__ctn__article--right:hover {
+  color: #3B8EFF;
+  text-decoration: underline;
+  border-bottom: 4px solid #3B8EFF;
+}
+
+.contact__title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0;
+  font-family: "Bodoni 36";
+  font-size: 96px;
+}
+.contact__ctn {
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 20px 0;
+}
+.contact__ctn--left {
+  border-right: 4px solid black;
+  flex: 0 0 50%;
+}
+.contact__ctn--left--titre {
+  font-family: "Bodoni 36";
+  font-size: 35px;
+  font-weight: 500;
+}
+.contact__ctn--left--name, .contact__ctn--left--details {
+  font-size: 32px;
+  line-height: 39px;
+}
+.contact__ctn--right img {
+  max-width: 400px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.footer__link {
+  font-family: "Bodoni 36";
+  font-size: 25px;
+}
+.footer__link a {
+  padding: 20px;
+}
+.footer__link a:last-child {
+  padding: 20px;
+}
+.footer img {
+  max-width: 400px;
+}
+.footer__credits {
+  font-family: "Bodoni 36";
+  font-size: 18px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=/app.css.map */
