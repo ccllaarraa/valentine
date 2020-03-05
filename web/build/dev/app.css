@@ -159,5 +159,96 @@ img:focus {
   font-family: "Bodoni 36";
   font-size: 96px;
 }
+.exper__droits {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+.exper__droits__list {
+  display: flex;
+  align-items: baseline;
+}
+.exper__droits__list--left {
+  flex: 0 0 25em;
+}
+.exper__droits__list--left h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.exper__droits__list--right--arrow1 img, .exper__droits__list--right--arrow2 img, .exper__droits__list--right--arrow3 img {
+  width: 35px;
+  padding: 15px 0 10px 4px;
+  cursor: pointer;
+}
+.exper__droits__list--right--arrow1 span, .exper__droits__list--right--arrow2 span, .exper__droits__list--right--arrow3 span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3B8EFF;
+  cursor: pointer;
+}
+.exper__droits__list--right--arrow3 {
+  margin-bottom: 25px;
+}
+.exper__droits--reduire1, .exper__droits--reduire2, .exper__droits--reduire3 {
+  margin-left: 13em;
+}
+.exper__droits--reduire1 img, .exper__droits--reduire2 img, .exper__droits--reduire3 img {
+  width: 35px;
+  padding: 15px 0 10px 4px;
+  cursor: pointer;
+}
+.exper__droits--reduire1 span, .exper__droits--reduire2 span, .exper__droits--reduire3 span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3B8EFF;
+  cursor: pointer;
+}
+.exper__droits--reduire3 {
+  margin-bottom: 25px;
+}
+.exper__droits--detail1, .exper__droits--detail2, .exper__droits--detail3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.actu__title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0;
+  font-family: "Bodoni 36";
+  font-size: 96px;
+}
+.actu__ctn {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+.actu__ctn__article {
+  display: flex;
+  padding-bottom: 20px;
+}
+.actu__ctn__article:last-child {
+  padding-bottom: 50px;
+}
+.actu__ctn__article--left img {
+  max-width: 400px;
+  cursor: pointer;
+}
+.actu__ctn__article--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 4px solid black;
+  margin-left: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.actu__ctn__article--right__title {
+  font-size: 35px;
+  padding: 10px;
+}
+.actu__ctn__article--right__date {
+  font-size: 20px;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=/app.css.map */
