@@ -194,6 +194,9 @@ img:focus {
   font-size: 30px;
   font-weight: 500;
 }
+.exper__droits__list--right {
+  font-size: 22px;
+}
 .exper__droits__list--right--arrow1 img, .exper__droits__list--right--arrow2 img, .exper__droits__list--right--arrow3 img {
   width: 35px;
   padding: 15px 0 10px 4px;
@@ -269,7 +272,7 @@ img:focus {
   cursor: pointer;
 }
 .actu__ctn__article--right__title {
-  font-size: 35px;
+  font-size: 30px;
   padding: 10px;
 }
 .actu__ctn__article--right__date {

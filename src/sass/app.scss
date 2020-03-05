@@ -178,6 +178,7 @@ img:focus {outline:0;}
                 }
             }
         &--right {
+            font-size: 22px;
             &--arrow1, &--arrow2, &--arrow3 {
                 img {
                     width: 35px;
@@ -262,7 +263,7 @@ img:focus {outline:0;}
                 width: 100%;
                 cursor: pointer;
                 &__title {
-                    font-size: 35px;
+                    font-size: 30px;
                     padding: 10px;
                 }
                 &__date {
