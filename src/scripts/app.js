@@ -58,20 +58,20 @@ $(document).ready(function(){
         $(".exper__droits__list--right--arrow3").show();
       });
 
-      $(".arrow-up ").click(function() {
-        $("html, body").animate({ 
-            scrollTop: 800 
-        }, "slow");
-        return false;
-    });
+    //   $(".arrow-up ").click(function() {
+    //     $("html, body").animate({ 
+    //         scrollTop: 800 
+    //     }, "slow");
+    //     return false;
+    // });
 
-    $('.landing__arrow__png').click(function(event) {
-        // Preventing default action of the event
-        event.preventDefault();
-        // Getting the height of the document
-        var n = 800;
-        $('html, body').animate({ scrollTop: n }, 'slow');
-    });
+    // $('.landing__arrow__png').click(function(event) {
+    //     // Preventing default action of the event
+    //     event.preventDefault();
+    //     // Getting the height of the document
+    //     var n = 800;
+    //     $('html, body').animate({ scrollTop: n }, 'slow');
+    // });
 
     $(document).on('click', 'a[href^="#"]', function (e) {
         e.preventDefault();

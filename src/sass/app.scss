@@ -86,6 +86,8 @@ img:focus {outline:0;}
 }
 .home {
     padding: 15px 50px;
+    max-width: 2000px;
+    margin: auto;
 }
 .header {
     ul {
@@ -462,5 +464,92 @@ img:focus {outline:0;}
         font-size: 30px;
         line-height: 39px;
         padding: 50px 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) { 
+    .landing__title {
+        font-size: 11vw;
+    }
+    .landing__subtitle {
+        font-size: 29px;
+    }
+    .menu ul {
+        margin: 0 100px;
+    }
+    .menu__txt__1,     .menu__txt__2 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .exper__droits__list--right, .exper__droits__list--left h2, .exper__droits--detail1, .exper__droits--detail2, .exper__droits--detail3, .contact__ctn--left--name, .contact__ctn--left--details {
+        font-size: 28px;
+        line-height: 36px;
+    }    
+}
+
+@media only screen and (max-width: 900px) { 
+   
+    .home, .article {
+        padding: 5px 15px;
+    }
+    .header ul .header__title {
+        font-size: 36px;
+        margin-left: 80px;
+    }
+    .exper__droits {
+        flex-direction : column;
+    }
+    .exper__droits__list:first-child {
+        border-right: none;
+    }
+    .exper__droits__list {
+        border-right: none;
+        border-left: none;
+    }
+    .exper__droits__list:last-child {
+        border-bottom: none;
+        border-left: none;
+    }
+    .exper__droits__list--left h2 {
+        font-size: 42px;
+        margin: 0 0 20px 0;
+    }
+    .exper__droits__list--right--arrow1, .exper__droits__list--right--arrow2, .exper__droits__list--right--arrow3 , .exper__droits--reduire1, .exper__droits--reduire2, .exper__droits--reduire3{
+        align-items: flex-start;
+    }
+    .actu__ctn__article {
+        flex-direction: column;
+    }
+    .actu__ctn__article--left img {
+        max-width: none;
+        width: 100%;
+    }
+    .contact__ctn {
+        flex-direction: column;
+    }
+    .actu__ctn__article--right {
+        margin-left: 0;
+    }
+    .contact__ctn--left {
+        border-right: none;
+        padding: 20px 0 70px 0;
+    }
+    .contact__ctn--right {
+        margin: auto;
+        width: 50%;
+        display: block;
+    }
+    .footer__link a {
+        padding: 0;
+    }
+    .mentions__title {
+        line-height: 110px;
+    font-weight: 500;
+    padding-bottom: 17px;
+    }
+    .article__ctn__img {
+        width: 100%;
     }
 }
