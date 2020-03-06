@@ -1,4 +1,4 @@
-dateModified: 1583146495
+dateModified: 1583493724
 email:
   fromEmail: clarapasteau@gmail.com
   fromName: valentine
@@ -6,6 +6,14 @@ email:
 fieldGroups:
   9927952a-8ccc-4948-a0a5-c7b440f2d673:
     name: Common
+routes:
+  2d7aca0e-78db-4400-9a41-37f46a831283:
+    siteUid: null
+    sortOrder: 1
+    template: /_article
+    uriParts:
+      - 'article/{slug}'
+    uriPattern: 'article/{slug}'
 siteGroups:
   df19bf3e-cc75-4c19-821d-81cbd484c4ed:
     name: valentine
