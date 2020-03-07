@@ -1,4 +1,4 @@
-dateModified: 1583493724
+dateModified: 1583593575
 email:
   fromEmail: clarapasteau@gmail.com
   fromName: valentine
@@ -6,14 +6,105 @@ email:
 fieldGroups:
   9927952a-8ccc-4948-a0a5-c7b440f2d673:
     name: Common
+fields:
+  300a1147-7183-4038-9f31-63fc8d38cae6:
+    contentColumnType: string
+    fieldGroup: 9927952a-8ccc-4948-a0a5-c7b440f2d673
+    handle: image
+    instructions: 'Image illustrant l''article (une seule image possible et obligatoire)'
+    name: Image
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: ''
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: ''
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  75942697-34d5-45b8-a8f2-9d4c5014d000:
+    contentColumnType: text
+    fieldGroup: 9927952a-8ccc-4948-a0a5-c7b440f2d673
+    handle: article
+    instructions: 'Ici tu peux écrire l''article, insérer des images, des liens, du text…'
+    name: Article
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Standard.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showUnpermittedFiles: true
+      showUnpermittedVolumes: true
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 routes:
   2d7aca0e-78db-4400-9a41-37f46a831283:
     siteUid: null
     sortOrder: 1
-    template: /_article
+    template: article
     uriParts:
       - 'article/{slug}'
     uriPattern: 'article/{slug}'
+sections:
+  6a026fec-384e-45da-ae52-abb34f9fc4a5:
+    enableVersioning: true
+    entryTypes:
+      63be3373-281c-4a13-a9d7-41b3c0af3434:
+        fieldLayouts:
+          91abf4fb-e31a-49cb-a8a3-23fb063ee2dc:
+            tabs:
+              -
+                fields:
+                  300a1147-7183-4038-9f31-63fc8d38cae6:
+                    required: false
+                    sortOrder: 1
+                  75942697-34d5-45b8-a8f2-9d4c5014d000:
+                    required: false
+                    sortOrder: 2
+                name: 'Tab 1'
+                sortOrder: 1
+        handle: article
+        hasTitleField: true
+        name: Article
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Title
+    handle: article
+    name: Article
+    propagationMethod: all
+    siteSettings:
+      e92180d7-4855-404c-b2fb-69cbeb45e447:
+        enabledByDefault: true
+        hasUrls: true
+        template: article
+        uriFormat: 'article/{slug}'
+    type: channel
 siteGroups:
   df19bf3e-cc75-4c19-821d-81cbd484c4ed:
     name: valentine
@@ -39,3 +130,13 @@ users:
   photoSubpath: ''
   photoVolumeUid: null
   requireEmailVerification: true
+volumes:
+  475fb584-63b7-4587-8db3-8ad86c5b3e4d:
+    handle: uploads
+    hasUrls: false
+    name: uploads
+    settings:
+      path: '@app'
+    sortOrder: 1
+    type: craft\volumes\Local
+    url: uploads

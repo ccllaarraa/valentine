@@ -650,6 +650,10 @@ img:focus {
     padding: 0;
   }
 
+  .footer {
+    padding: 15px 0;
+  }
+
   .footer__link {
     font-size: 22px;
   }
@@ -671,6 +675,16 @@ img:focus {
     font-size: 20px;
     line-height: 28px;
     padding: 30px 0;
+  }
+
+  .article__ctn__title {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .article__ctn__text {
+    font-size: 20px;
+    line-height: 28px;
   }
 }
 
