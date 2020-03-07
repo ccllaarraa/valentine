@@ -98,7 +98,7 @@ img:focus {outline:0;}
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 4px solid black;
+    border-bottom: 2px solid black;
         img {
             width: 100px;
         }
@@ -107,7 +107,7 @@ img:focus {outline:0;}
             font-family: 'Arapey','Bodoni 36';
             font-weight: 500;   
             font-size: 50px;
-            margin-left: 100px;
+            margin-left: 50px;
         }
         .header__address {
             font-family: 'Arapey', 'Bodoni 11';   
@@ -143,8 +143,8 @@ img:focus {outline:0;}
     }
     &__txt {
         &__1 {
-            border-top: 4px solid black;
-            border-bottom: 4px solid black;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
             font-size: 46px;
             line-height: 50px;
             padding: 20px 0;
@@ -159,7 +159,7 @@ img:focus {outline:0;}
 }
 
 .exper {
-    border-top: 4px solid black;
+    border-top: 2px solid black;
     &__title {
         display: flex;
         justify-content: center;
@@ -170,7 +170,7 @@ img:focus {outline:0;}
         font-weight: 500;
     }
     &__droits {
-        border-top: 4px solid black;
+        border-top: 2px solid black;
         display: flex;
         &__list {
         // display: flex;
@@ -181,10 +181,10 @@ img:focus {outline:0;}
         padding: 15px;
         margin: 15px 0;
             &:first-child {
-                border-right: 4px solid black;
+                border-right: 2px solid black;
             }
             &:last-child {
-                border-left: 4px solid black;
+                border-left: 2px solid black;
             }
          &--left {
             // flex: 0 0 25em;
@@ -266,7 +266,7 @@ img:focus {outline:0;}
 }
 
 .actu {
-    border-top: 4px solid black;
+    border-top: 2px solid black;
     &__title {
         display: flex;
         justify-content: center;
@@ -277,7 +277,7 @@ img:focus {outline:0;}
         font-weight: 500;
     }
     &__ctn {
-        border-top: 4px solid black;
+        border-top: 2px solid black;
         &__article {
         display: flex;
         padding-bottom: 20px;
@@ -296,7 +296,7 @@ img:focus {outline:0;}
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                border-bottom: 4px solid black;
+                border-bottom: 2px solid black;
                 width: 100%;
                 cursor: pointer;
                 min-height: 100%;
@@ -311,7 +311,7 @@ img:focus {outline:0;}
                 }
                 &:hover {
                     color: #3B8EFF;
-                    border-bottom: 4px solid #3B8EFF;
+                    border-bottom: 2px solid #3B8EFF;
                 }
                
             }
@@ -335,7 +335,7 @@ img:focus {outline:0;}
 }
 
 .contact {
-    border-top: 4px solid black;
+    border-top: 2px solid black;
     &__title {
         display: flex;
         justify-content: center;
@@ -348,10 +348,10 @@ img:focus {outline:0;}
     &__ctn {
         display: flex;
         justify-content: space-between;
-        border-top: 4px solid black;
+        border-top: 2px solid black;
         padding: 15px 0;
         &--left {
-            border-right: 4px solid black;
+            border-right: 2px solid black;
             flex: 0 0 50%;
             &--titre {
                 font-family: 'Arapey', 'Bodoni 36';
@@ -380,7 +380,7 @@ img:focus {outline:0;}
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    border-top: 4px solid black;
+    border-top: 2px solid black;
     &__link {
         font-family: 'Arapey', 'Bodoni 36';
         font-size: 25px;
@@ -416,7 +416,7 @@ img:focus {outline:0;}
         font-weight: 500;
     }
     &__ctn {
-        border-top: 4px solid black;
+        border-top: 2px solid black;
         &__title {
             text-align: center;
             font-weight: 500;
@@ -458,7 +458,7 @@ img:focus {outline:0;}
         padding-bottom: 10px;
     }
     &__ctn {
-        border-top: 4px solid black;
+        border-top: 2px solid black;
         display: block;
         margin: 0;
         font-size: 30px;

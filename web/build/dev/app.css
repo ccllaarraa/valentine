@@ -120,7 +120,7 @@ img:focus {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 4px solid black;
+  border-bottom: 2px solid black;
 }
 .header ul img {
   width: 100px;
@@ -130,7 +130,7 @@ img:focus {
   font-family: "Arapey", "Bodoni 36";
   font-weight: 500;
   font-size: 50px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 .header ul .header__address {
   font-family: "Arapey", "Bodoni 11";
@@ -163,8 +163,8 @@ img:focus {
   background-color: #3B8EFF;
 }
 .menu__txt__1 {
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   font-size: 46px;
   line-height: 50px;
   padding: 20px 0;
@@ -176,7 +176,7 @@ img:focus {
 }
 
 .exper {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
 }
 .exper__title {
   display: flex;
@@ -188,7 +188,7 @@ img:focus {
   font-weight: 500;
 }
 .exper__droits {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
   display: flex;
 }
 .exper__droits__list {
@@ -199,10 +199,10 @@ img:focus {
   margin: 15px 0;
 }
 .exper__droits__list:first-child {
-  border-right: 4px solid black;
+  border-right: 2px solid black;
 }
 .exper__droits__list:last-child {
-  border-left: 4px solid black;
+  border-left: 2px solid black;
 }
 .exper__droits__list--left {
   display: flex;
@@ -275,7 +275,7 @@ img:focus {
 }
 
 .actu {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
 }
 .actu__title {
   display: flex;
@@ -287,7 +287,7 @@ img:focus {
   font-weight: 500;
 }
 .actu__ctn {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
 }
 .actu__ctn__article {
   display: flex;
@@ -304,7 +304,7 @@ img:focus {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-bottom: 4px solid black;
+  border-bottom: 2px solid black;
   width: 100%;
   cursor: pointer;
   min-height: 100%;
@@ -320,7 +320,7 @@ img:focus {
 }
 .actu__ctn__article--right a:hover {
   color: #3B8EFF;
-  border-bottom: 4px solid #3B8EFF;
+  border-bottom: 2px solid #3B8EFF;
 }
 
 .actu__ctn__article--right {
@@ -342,7 +342,7 @@ img:focus {
 }
 
 .contact {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
 }
 .contact__title {
   display: flex;
@@ -356,11 +356,11 @@ img:focus {
 .contact__ctn {
   display: flex;
   justify-content: space-between;
-  border-top: 4px solid black;
+  border-top: 2px solid black;
   padding: 15px 0;
 }
 .contact__ctn--left {
-  border-right: 4px solid black;
+  border-right: 2px solid black;
   flex: 0 0 50%;
 }
 .contact__ctn--left--titre {
@@ -385,7 +385,7 @@ img:focus {
   flex-direction: column;
   align-items: center;
   padding: 30px;
-  border-top: 4px solid black;
+  border-top: 2px solid black;
 }
 .footer__link {
   font-family: "Arapey", "Bodoni 36";
@@ -422,7 +422,7 @@ img:focus {
   font-weight: 500;
 }
 .article__ctn {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
 }
 .article__ctn__title {
   text-align: center;
@@ -464,7 +464,7 @@ img:focus {
   padding-bottom: 10px;
 }
 .mentions__ctn {
-  border-top: 4px solid black;
+  border-top: 2px solid black;
   display: block;
   margin: 0;
   font-size: 30px;

@@ -1,29 +1,24 @@
 <section class="actu" id="actualites">
     <h2 class='actu__title'>Actualités</h2>
     <div class='actu__ctn'>
+     {% for article in articles %}
         <div class='actu__ctn__article'> 
-            <div class='actu__ctn__article--left'>
-                <a href='/article'><img src='../assets/airb.png' alt="article"></a>
-            </div>
+       
+                <div class='actu__ctn__article--left'>
+                   {% set articleImages = article.image %}
+                     
+                    <a href="{{ article.url }}"><img src={{ articleImages.first().getUrl }} alt="article"></a>
+                   
+                </div>
              
-            <div class='actu__ctn__article--right'>
-                <a href='/article'>
-                    <span class='actu__ctn__article--right__title'>Ce que va changer la réforme</span>
-                    <span class='actu__ctn__article--right__date'>12-12-12</span>
-              </a>
-            </div>
+                <div class='actu__ctn__article--right'>
+                    <a href="{{ article.url }}">
+                        <span class='actu__ctn__article--right__title'> {{ article.title }}</span>
+                        <span class='actu__ctn__article--right__date'> {{ article.postDate | date("d-m-Y") }}</span>
+                </a>
+                </div>
            
         </div>
-          <div class='actu__ctn__article'> 
-            <div class='actu__ctn__article--left'>
-                <a href='/article'><img src='../assets/airb.png' alt="arrow"></a>
-            </div>
-            <div class='actu__ctn__article--right'>
-            <a href='/article'>
-                <span class='actu__ctn__article--right__title'>Ce que va changer la réforme</span>
-                <span class='actu__ctn__article--right__date'>12-12-12</span>
-            </a>
-            </div>
-        </div>
+         {% endfor %}
     </div>
 </section>

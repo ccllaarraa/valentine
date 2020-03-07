@@ -1,0 +1,27 @@
+
+{% block body %}
+<section class='article'>
+
+{% include '/layouts/_base.twig' %}
+{% include '/sections/_header.twig' %}
+
+  <h2 class='article__title'>Actualités</h2>
+
+{% set article = craft.entries()
+    .section('articles')
+    .one() %}
+ 
+
+  <div class='article__ctn'>
+        <h3 class='article__ctn__title'>{{ article.title }}</h3>
+        <span class='article__ctn__date'>{{ article.postDate | date("d-m-Y") }}</span>
+        
+        <img src={{ article.image.first().getUrl }} alt="article" class='article__ctn__img'>
+            <span class='article__ctn__text'>{{ article.article }} </span>
+
+  </div>
+
+{% include '/sections/_footer.twig' %}
+
+</section>
+{% endblock %}

@@ -1,4 +1,4 @@
-dateModified: 1583593575
+dateModified: 1583604279
 email:
   fromEmail: clarapasteau@gmail.com
   fromName: valentine
@@ -16,7 +16,7 @@ fields:
     searchable: true
     settings:
       allowedKinds: null
-      defaultUploadLocationSource: ''
+      defaultUploadLocationSource: 'volume:475fb584-63b7-4587-8db3-8ad86c5b3e4d'
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -24,7 +24,7 @@ fields:
       selectionLabel: ''
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: ''
+      singleUploadLocationSource: 'volume:475fb584-63b7-4587-8db3-8ad86c5b3e4d'
       singleUploadLocationSubpath: ''
       source: null
       sources: '*'
@@ -39,7 +39,7 @@ fields:
     contentColumnType: text
     fieldGroup: 9927952a-8ccc-4948-a0a5-c7b440f2d673
     handle: article
-    instructions: 'Ici tu peux écrire l''article, insérer des images, des liens, du text…'
+    instructions: 'Ici tu peux écrire l''article et insérer des liens'
     name: Article
     searchable: true
     settings:
@@ -49,7 +49,7 @@ fields:
       columnType: text
       purifierConfig: ''
       purifyHtml: '1'
-      redactorConfig: Standard.json
+      redactorConfig: basic.json
       removeEmptyTags: '1'
       removeInlineStyles: '1'
       removeNbsp: '1'
@@ -63,14 +63,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
-routes:
-  2d7aca0e-78db-4400-9a41-37f46a831283:
-    siteUid: null
-    sortOrder: 1
-    template: article
-    uriParts:
-      - 'article/{slug}'
-    uriPattern: 'article/{slug}'
 sections:
   6a026fec-384e-45da-ae52-abb34f9fc4a5:
     enableVersioning: true
@@ -95,15 +87,15 @@ sections:
         sortOrder: 1
         titleFormat: ''
         titleLabel: Title
-    handle: article
-    name: Article
+    handle: articles
+    name: Articles
     propagationMethod: all
     siteSettings:
       e92180d7-4855-404c-b2fb-69cbeb45e447:
         enabledByDefault: true
         hasUrls: true
-        template: article
-        uriFormat: 'article/{slug}'
+        template: sections/_article
+        uriFormat: '{slug}'
     type: channel
 siteGroups:
   df19bf3e-cc75-4c19-821d-81cbd484c4ed:
@@ -133,10 +125,10 @@ users:
 volumes:
   475fb584-63b7-4587-8db3-8ad86c5b3e4d:
     handle: uploads
-    hasUrls: false
+    hasUrls: true
     name: uploads
     settings:
-      path: '@app'
+      path: '@webroot/uploads'
     sortOrder: 1
     type: craft\volumes\Local
     url: uploads
