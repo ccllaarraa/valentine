@@ -1,7 +1,11 @@
+
+
 <section class="actu" id="actualites">
     <h2 class='actu__title'>Actualités</h2>
     <div class='actu__ctn'>
-     {% for article in articles %}
+
+   
+     {% for article in articles %} 
         <div class='actu__ctn__article'> 
        
                 <div class='actu__ctn__article--left'>
@@ -16,9 +20,14 @@
                         <span class='actu__ctn__article--right__title'> {{ article.title }}</span>
                         <span class='actu__ctn__article--right__date'> {{ article.postDate | date("d-m-Y") }}</span>
                 </a>
-                </div>
-           
+                </div> 
+{#            
+              {% include '/sections/_article.twig' with {
+                            title: article.title,
+                            image: article.image.first().getUrl,
+                            url: article.getUrl()
+                        } %} #}
         </div>
-         {% endfor %}
+          {% endfor %} 
     </div>
 </section>
